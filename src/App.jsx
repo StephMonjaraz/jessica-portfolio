@@ -38,10 +38,10 @@ export default function App() {
       ],
     },
     {
-      title: "PwC – SAP Implementation",
-      subtitle: "Testing support, documentation, and cross-functional collaboration",
+      title: "PwC – Business Application Consulting (SAP)",
+      subtitle: "SAP Consulting Generalist – Associate",
       description:
-        "Professional experience supporting SAP implementation projects through testing support, documentation, and collaboration across functional teams.",
+        "Professional experience supporting SAP implementation projects, contributing to testing, documentation, and collaboration across functional teams.",
       stack: [
         "SAP",
         "FI",
@@ -52,10 +52,10 @@ export default function App() {
         "Documentation",
       ],
       bullets: [
-        "Supported implementation activities across FI, SD, and MM modules.",
-        "Participated in SIT and UAT testing efforts, including execution of SD test cases.",
-        "Contributed to testing documentation and validation workflows.",
-        "Worked with cross-functional teams in a professional client-facing environment.",
+        "Supported SAP implementation activities across FI, SD, and MM modules.",
+        "Participated in SIT and UAT testing, including execution of test cases for SD processes.",
+        "Contributed to documentation of testing scenarios and validation workflows.",
+        "Collaborated with cross-functional teams in a professional, client-facing environment.",
       ],
     },
   ];
@@ -87,7 +87,7 @@ export default function App() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-7 text-slate-300 md:text-lg">
-              Electrical &amp; Electronic Engineering student focused on embedded
+              Electrical & Electronic Engineering student focused on embedded
               systems, software, and real-world problem solving. I build systems
               that connect hardware, data, and user needs, with a strong
               interest in assistive technology and intelligent systems.
@@ -149,10 +149,7 @@ export default function App() {
         </div>
       </section>
 
-      <section
-        id="projects"
-        className="mx-auto max-w-6xl px-6 py-8 md:py-12"
-      >
+      <section id="projects" className="mx-auto max-w-6xl px-6 py-8 md:py-12">
         <div className="mb-8">
           <p className="text-sm font-medium uppercase tracking-[0.3em] text-sky-300">
             Projects
