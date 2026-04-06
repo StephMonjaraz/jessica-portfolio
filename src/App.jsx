@@ -4,18 +4,18 @@ export default function App() {
       title: "HexaAlign",
       subtitle: "Wearable embedded posture feedback system",
       description:
-        "Developed a wearable assistive system for real-time posture correction using an ESP32-C3, IMU sensors, and haptic feedback. Implemented sensor fusion techniques including complementary and Kalman filtering to improve orientation estimation.",
+        "Developed a wearable assistive system for real-time posture correction using an ESP32-C3, IMU sensors, and haptic feedback. Focused on sensor reading, orientation estimation, and feedback logic for posture guidance.",
       stack: [
         "ESP32-C3",
         "C/C++",
         "MPU6050",
         "I2C",
-        "Signal Processing",
         "Embedded Systems",
+        "Signal Processing",
       ],
       bullets: [
         "Designed and implemented real-time tilt detection using IMU data and threshold-based logic.",
-        "Applied complementary and Kalman filtering to improve stability and reduce noise in orientation estimation.",
+        "Worked on orientation estimation and filtering to improve signal stability and reduce noisy sensor behavior.",
         "Developed a calibration workflow and feedback logic for posture correction using vibration motors.",
         "Focused on a real-world rehabilitation and accessibility use case.",
       ],
@@ -39,9 +39,9 @@ export default function App() {
     },
     {
       title: "PwC – SAP Implementation",
-      subtitle: "Testing, documentation, and cross-functional collaboration",
+      subtitle: "Testing support, documentation, and cross-functional collaboration",
       description:
-        "Professional experience supporting SAP implementation projects across FI, SD, and MM modules, with a focus on testing support, documentation, and collaboration across teams.",
+        "Professional experience supporting SAP implementation projects through testing support, documentation, and collaboration across functional teams.",
       stack: [
         "SAP",
         "FI",
@@ -52,9 +52,9 @@ export default function App() {
         "Documentation",
       ],
       bullets: [
-        "Supported SAP implementation efforts across FI, SD, and MM modules.",
-        "Contributed to SIT and UAT testing activities, including execution of SD test cases.",
-        "Prepared and supported testing documentation and validation workflows.",
+        "Supported implementation activities across FI, SD, and MM modules.",
+        "Participated in SIT and UAT testing efforts, including execution of SD test cases.",
+        "Contributed to testing documentation and validation workflows.",
         "Worked with cross-functional teams in a professional client-facing environment.",
       ],
     },
@@ -91,6 +91,11 @@ export default function App() {
               systems, software, and real-world problem solving. I build systems
               that connect hardware, data, and user needs, with a strong
               interest in assistive technology and intelligent systems.
+            </p>
+
+            <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-400 md:text-base">
+              Based in Mexico City • Open to technical roles in embedded systems,
+              software, and problem-solving focused teams.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
